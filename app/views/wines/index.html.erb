@@ -1,4 +1,6 @@
 <% @wines.each do |wine| %>
-  <h2><%= wine.description %></h2>
-  <p><%= wine.designation %></p>
+  <% if wine.designation != nil %>
+    <h2><%= wine.designation %></h2>
+    <p><%= wine.winery %></p>
+  <% end %>
 <% end %>
