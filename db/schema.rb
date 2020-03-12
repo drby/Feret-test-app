@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_10_145223) do
+ActiveRecord::Schema.define(version: 2020_03_12_125057) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 2020_03_10_145223) do
     t.string "region_1"
     t.string "region_2"
     t.string "variety"
-    t.float "latitude"
-    t.float "longitude"
+    t.string "lat"
+    t.string "lon"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "winery"

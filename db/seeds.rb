@@ -26,8 +26,8 @@ csv.each do |row|
   t.variety = row['variety']
   t.winery = row['winery']
   t.province = row['province']
-  t.latitude = row['latitude']
-  t.longitude = row['longitude']
+  t.lat = row['lat']
+  t.lon = row['lon']
   t.save
   puts "#{t.description}, #{t.province} saved"
 end
