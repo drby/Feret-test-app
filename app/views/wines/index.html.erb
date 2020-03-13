@@ -1,5 +1,5 @@
 <% @wines.each do |wine| %>
-  <% if wine.designation != nil %>
+  <% if wine.designation != nil && wine.winery != nil  %>
     <h2><%= wine.designation %></h2>
     <p><%= wine.winery %></p>
   <% end %>
