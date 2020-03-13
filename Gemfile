@@ -29,3 +29,4 @@ group :development, :test do
 end
 
 gem 'searchkick'
+gem 'bonsai-elasticsearch-rails', '~> 7'
