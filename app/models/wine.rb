@@ -1,5 +1,7 @@
 class Wine < ApplicationRecord
-  searchkick word_middle: [:designation, :winery]
+searchkick
+
+  # searchkick word_start: [:designation, :winery]
 
   # def search_data
   #   {
